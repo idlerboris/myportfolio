@@ -32,16 +32,16 @@ const experiences = [
         role: "Staff Software Engineer (L6)",
         startDate: "2021-01-01",
         endDate: "Present",
-        description: "Leading Cloud Security Reliability Platform team. Focus on distributed data-intensive systems and strategy.",
-        stack: ["Distributed Systems", "GCP", "Strategy"]
+        description: "Leading Cloud Security Reliability Platform team. Focus on distributed data-intensive systems and strategy design. AI Champion.",
+        stack: ["Distributed Systems", "GCP", "Strategy", "AI", "TLM"]
     },
     {
         company: "ServiceTitan",
         role: "Principal Software Engineer",
         startDate: "2015-04-01",
         endDate: "2021-01-06",
-        description: "Led AI/Optimization and Dispatch organizations. Architected high-intensity applications.",
-        stack: ["C#.Net", "AI", "Algorithms"]
+        description: "Led AI/Optimization and SmartDispatch teams. Architected high-intensity services from the scratch.",
+        stack: ["C#.Net", "Azure", "AWS", "MSSQL", "ML", "Algorithms", "TL"]
     },
     {
         company: "Various Startups",
