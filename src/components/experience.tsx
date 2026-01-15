@@ -55,7 +55,7 @@ const experiences = [
 
 export function Experience() {
     return (
-        <section className="py-20 max-w-3xl mx-auto px-6">
+        <section className="py-8 max-w-3xl mx-auto px-6">
             <motion.h2
                 className="text-2xl font-bold mb-10"
                 initial={{ opacity: 0 }}

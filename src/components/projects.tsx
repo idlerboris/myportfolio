@@ -8,31 +8,31 @@ import { ExternalLink } from "lucide-react"
 
 const projects = [
     {
-        title: "ReadyToFi",
+        title: "Ready to FIRE?",
         description: "Financial Independence, simplified. A comprehensive calculator and planner for the FIRE movement.",
         link: "https://www.readytofi.com/",
         tags: ["React", "Finance", "Calculator"],
         span: "md:col-span-2"
     },
     {
-        title: "Habits",
+        title: "Habits Builder",
         description: "A productivity tool for tracking habits, inspired by neuroscience and behavioral psychology.",
         link: "https://habits.techboris.com/",
         tags: ["Next.js", "PWA"],
-        span: "md:col-span-1"
+        span: "md:col-span-2"
     },
     {
         title: "Writing",
         description: "Thoughts on Graph algorithms, AI, and Engineering Leadership on Medium.",
         link: "https://medium.com/@idlerboris",
         tags: ["Blog", "Leadership", "AI"],
-        span: "md:col-span-3"
+        span: "md:col-span-4"
     }
 ]
 
 export function Projects() {
     return (
-        <section className="py-20 max-w-3xl mx-auto px-6">
+        <section className="py-8 max-w-3xl mx-auto px-6">
             <motion.h2
                 className="text-2xl font-bold mb-10"
                 initial={{ opacity: 0 }}
@@ -42,7 +42,7 @@ export function Projects() {
                 The Lab
             </motion.h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
